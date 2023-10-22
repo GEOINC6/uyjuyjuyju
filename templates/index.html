@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Loader</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+
+      div {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      #proxy-response {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+      }
+
+      form {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      button {
+        background-color: #0074d9;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Website Loader</h1>
+      <form action="/proxy" method="post">
+        <input type="text" name="url" placeholder="Enter URL" />
+        <button type="submit">Load Content</button>
+      </form>
+      <h2>Load Proxy</h2>
+    </div>
+  </body>
+</html>

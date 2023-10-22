@@ -1,0 +1,11 @@
+{
+  "name": "your-flask-app",
+  "version": "1.0.0",
+  "description": "Your Flask Application Description",
+  "scripts": {
+    "start": "python app.py"
+  },
+  "dependencies": {
+    "flask": "2.1.1"
+  }
+}
